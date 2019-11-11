@@ -321,4 +321,4 @@ output$HHmap <- renderDataTable({
                            paging=TRUE))
 })
  
-ukraine_reacg
+ukraine_reach<-1
