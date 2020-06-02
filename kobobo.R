@@ -22,7 +22,7 @@ library(openxlsx)
 install_github("mrdwab/koboloadeR")
 
 
-KOBO_datasets <- kobo_datasets(user = c("reach_initiative_ukraine","ukraine_reach"), api="kobohr")
+KOBO_datasets <- kobo_datasets(user = c(USER,PASSWORD), api="kobohr")
 KOBO_datasets
 
 CVA3_HH<-kobo_data_downloader(formid = 284120,user= c("reach_initiative_ukraine",""), api="kobohr", check = FALSE)
